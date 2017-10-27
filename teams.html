@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: maroon;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: black;
+}
+img {
+    width: 200px;
+    height: 150px;
+    float: right;
+    margin: -55px 0 0px 15px;
+      }
+.clearfix {
+	overflow: auto;
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enver Creek</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Home</li>
+      <li>Departments</li>
+      <li>Parents</li>
+      <li>News & Other</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+
+ <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg" style="border: 5px solid maroon">
+   
+   <h2>Welcome To Enver Creek`s Website</h2>
+    
+    <p>Chania is the capital of the Chania region on the island o.</p>
+    <p>You will live web pages in a later chapter.</p>
+  </div>
+</div>
+  
+<div class="footer">
+  <p>Secondary</p>
+</div>
+
+</body>
+</html>
