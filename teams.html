@@ -18,7 +18,6 @@
     content: "";
     clear: both;
     display: table;
-    overflow: auto;
 }
 .menu {
     width: 25%;
@@ -34,20 +33,23 @@
 .menu li {
     padding: 8px;
     margin-bottom: 8px;
-    background-color: maroon;
+    background-color: teal;
     color: #ffffff;
 }
 .menu li:hover {
-    background-color: black;
+    background-color: #0099cc;
+}
+.fr {
+	text-align: right;
+	float: right;
 }
 img {
-    width: 200px;
+	width: 200px;
     height: 150px;
     float: right;
-    margin: -55px 0 0px 15px;
-      }
-.clearfix {
-	overflow: auto;
+    margin: 0 0 15px 15px;
+    border: 5px solid teal;
+    }
 </style>
 </head>
 <body>
@@ -60,25 +62,28 @@ img {
   <div class="column menu">
     <ul>
       <li>Home</li>
-      <li>Departments</li>
-      <li>Parents</li>
-      <li>News & Other</li>
+      <li>Clubs</li>
+      <li>News</li>
+      <li>About</li>
     </ul>
   </div>
 
   <div class="column content">
-
- <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg" style="border: 5px solid maroon">
-   
-   <h2>Welcome To Enver Creek`s Website</h2>
-    
-    <p>Chania is the capital of the Chania region on the island o.</p>
-    <p>You will live web pages in a later chapter.</p>
+    <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+    <h1>Welcome</h1>
+    <p>This is the Enver Creek Secondary School website.</p>
+    <p>At Enver Creek Secondary School we provide opportunities for success and excellence as we prepare students to become confident, thoughtful, and responsible members of the community.</p>
   </div>
 </div>
-  
+
 <div class="footer">
-  <p>Secondary</p>
+<div class="fr">
+
+<p>Phone: 604-543-8149</p>
+<p>Fax: 604-543-9762</p>
+</div>
+<p>14505-84 Avenue</p>
+<p>Surrey, B.C. Canada</p>
 </div>
 
 </body>
