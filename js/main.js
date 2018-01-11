@@ -1,3 +1,2 @@
-<script src="index.html">
-  alert("Are you there?");
-</script>
+alert("Are you there?");
+
