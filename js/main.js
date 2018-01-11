@@ -1,3 +1,3 @@
-<script src="main.js">
+<script src="index.html">
   alert("Are you there?");
 </script>
