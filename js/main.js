@@ -1,1 +1,4 @@
-alert("Hello?");
+<script>
+  alert("Hello?");
+</script>
+
