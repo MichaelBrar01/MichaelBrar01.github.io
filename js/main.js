@@ -1,4 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
 <script>
-  alert("Hello?");
+  alert("Are you there?");
 </script>
-
+</body>
+</html>
